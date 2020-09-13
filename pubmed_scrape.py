@@ -169,7 +169,7 @@ for i in range(0, len(texts)):
 df = pd.DataFrame(data=sims, columns=author_list)
 df['Author'] = author_list
 df = df.set_index("Author")
-df.to_csv(f'{fig_title}_similarities_matrix.csv)
+df.to_csv(f'{fig_title}_similarities_matrix.csv')
 
 g = nx.Graph()
 mean_value = df.mean().mean()  # calculate mean similarity value of entire matrix
