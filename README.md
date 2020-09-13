@@ -9,8 +9,8 @@ The abstracts for each scientist are processed using nltk to remove stopwords an
 
 The resulting network is graphed using NetworkX. Edges are drawn between authors that have similarity scores higher than the mean similarity score, which allows for better visualization of clustering. Below are examples of this script generating network graphs using the authors of a recently published Novavax paper on their successful phase 1 and phase 2 clinical trials for a Coronavirus vaccine, the authors of a review on mosquito vectors, and the authors of a microplastics paper. The Coronavirus vaccine paper (as a highly focused project) seems to have a more narrow spread between the authors compared to the broader mosquito and microplastics review papers. The review papers seem to show clustering between authors of similar specialities, which may be useful for identifying authors of a similar skillset.
 
-![alt text](img/Authors\ of\ Novavax\ Paper.png?raw=true)
+![alt text](img/Authors%20of%20Novavax%20Paper.png?raw=true)
 
-![alt text](img/Authors\ of\ Mosquito\ Paper.png?raw=true)
+![alt text](img/Authors%20of%20Mosquito%20Review%20Paper.png?raw=true)
 
-![alt text](img/Authors\ of\ Microplastics\ Paper.png?raw=true)
+![alt text](img/Authors%20of%20Microplastics%20Paper.png?raw=true)
