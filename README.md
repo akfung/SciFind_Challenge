@@ -1,4 +1,4 @@
-# SciFind_Challenge
+# Scientific_Publication_Network_Analysis
 This project attempts to visualize the spread of experience between a group of scientists as measured by the similarity of their most recent work, while mapping the relationships between each scientist. Web scraping and minor data processing is conducted with scrape.ipynb, while the NLP and network analysis is conducted with doc_network_analysis.ipynb. These have been collected into pubmed_scrape.py for simpler reusability of the scripts.
 
 Given a collaborative paper with a list of authors on pubmed, I used splinter and beautiful soup collect and concatenate abstracts of each scientist's 5 most recent published papers. 
